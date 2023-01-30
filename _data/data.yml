@@ -3,71 +3,64 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    # about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Tung Vu
+    tagline: SSE / Team Lead
+    avatar: tung.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: vuanhtung2004@gmail.com
+    phone: (+84) 97 970 46 29
+    # timezone: America/Cancun Timezone
+    # citizenship:
+    # website: blog.webjeda.com #do not add http://
+    linkedin: www.linkedin.com/in/tung-vu-swe/
+    # xing: alandoe
+    # github: sharu725
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Vietnamese
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+    # interests:
+    #   title: Skills
+    #   info:
+    #     - item: System Thinking
+    #     - item: Public Speaking
+    #     - item: People Management
+    #     - item: Delivery Management
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      - I'm a fast-learning, flexible, adaptive engineer as well as a
+      caring, supportive, goal-oriented manager.
+      - I thrive in an environment where I can bring the best value
+      to customers as well as to the business, while providing
+      mentoring & coaching to the juniors to help them grow to
+      realize their full potentials.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Master of Business Administration
+        university: HCMC University of Technology
+        time: 2017 - 2020
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,9 +69,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: Bachelor of Electrical and Electronic Engineering
+        university: HCMC University of Technology
+        time: 2010 - 2015
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -90,132 +83,189 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: SSE / Team Lead
+        time: 10/2022 - Present
+        company: Doctor Anywhere
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          - Lead a team of 6 members with full delivery, technology, & people management
+          responsibilities:
+            - Participate in development effort 50%
+            - Work with Product team to collect, clarify, & improve requirements
+            - Design architecture, API; implement PoC; support & review work of team
+          - Main tech stack: Java Spring Boot microservices backend, React frontent, CI/CD with
+          Jenkins pipelines & AWS infrastructure managed by Terraform
+          - Achievements:
+            - Implemented a PoC for the chat system, which was built up to final release version
+            - Coordinated team effort to work on multiple releases at the same time using feature flags
+            - Identified serious technical limitations with DynamoDB & designed a migration strategy
+            to move gradually to MySQL
+            - Analyzed requirements for new ticket management system, designed entities & API
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: 02/2022 - 10/2022
+        company: Instaclustr
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Internal Billing & Reporting Team
+            - Billing main tech stack: Java with Google Guice & MyBatis backend, PostgreSQL, CI/CD with
+            Jenkins pipelines & AWS infrastructure managed by Terraform & Ansible
+            - Reporting main tech stack: Apache Airflow for ETL, Apache Superset for data visualization & analysis,
+            PostgreSQL, CI/CD with Jenkins pipelines & AWS infrastructure managed by Terraform & Ansible
+          - Achievements:
+            - Set up & integrated the whole reporting platform from scratch with Apache Airflow, Apache Superset, & PostgreSQL
+            - Implemented multiple PoC visualization charts that are highly appreciated by Product team
+            - Led 2 big refactoring efforts in billing system to consolidate tiny micro services & clean up billing
+            calculations so more complex & transparent reports could be made
+      - role: Career Coach
+        time: 01/2020 - 01/2022
+        company: Adnovum
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          - Line manager responsibilities:
+            - Manage a pool of 8 coachees, support them on both professional & personal development
+            - Work closely with team leads to ensure engagement & performance
+            - Work closely with HR on recruitment / performance review / compensation
+          - Achievements:
+            - Was rated as the best Career Coach of VN office with high coachees satisfaction & low attrition rate
+            - Was loved by coachees that several asked for continued coaching outside company
+      - role: Senior Software Engineer
+        time: 06/2017 - 01/2022
+        company: Adnovum
+        details: |
+          - 09/2021 - 01/2022: Next generation platform for a Swiss crisis management company
+            - Main tech stack: Java Spring Boot microservices backend, PostgreSQL, Keycloak for IAM & RBAC,
+            CI/CD with GitHub Actions deploy as Docker clusters on on-premise VMs
+            - Achievements:
+              - Implemented IAM using Keycloak, synchronized with legacy system
+              - Implemented RBAC using Keycloak & Spring AOP with complex business rules at entity level
+              - Contributed several ideas on improving JWT flow as well as reducing token size
+          - 07/2020 - 09/2021: Centralized access management system for an agency of SG government
+            - Main tech stack: Java Spring Boot backend, Angular frontend, MariaDB, CI/CD with GoCD pipelines
+            & Azure infrastructure managed by Terraform & Ansible
+            - Achievements:
+              - Was owner of the whole Azure infrastructure, optimized usage to save cost while facilitate local
+              development at the same time
+              - Refactors ETL component to improve stability & eliminate duplicated code
+              - Wrote several automation scripts that save time on repeated tasks
+          - 08/2019 - 07/2020: eServices system for an agency of SG government
+            - Main tech stack: .NET Framework / Core backend, Angular frontend, Microsoft SQL, CI/CD with
+            GoCD pipelines & on-premise VMs deployed by PowerShell scripts
+            - Achievements:
+              - Wrote PowerShell scripts from scratch to deploy backend & frontend components automatically
+              - Wrote PowerShell scripts to invoke .NET Entity Framework to perform DB schema migration
+              - Delivered multiple full stack features ahead of schedule
+          - 06/2017 - 08/2019: Investment product management system for a Swiss bank
+            - Main tech stack: Java Spring backend, Java Eclipse RCP frontend, Oracle DB, CI/CD with Jenkins
+            pipelines & on-premise VMs
+            - Achievements:
+              - Suggested & implemented complex GUI features using existing simple components
+              - Refactored multiple pieces of legacy code to implement new features with complex requirements
+              - Wrote several guides on setting up local development with complex dependencies between components
+              - Was main person in VN team to troubleshoot servers & Flyway migrations
+      - role: Software Engineer
+        time: 03/2015 - 06/2017
+        company: Robert Bosch Engineering & Business Solutions Vietnam
+        details: |
+          - Scripting / Automation engineer in Greenfield Architecture team:
+            - Worked directly with architects in Germany & India
+            - Worked on various languages (Python, VBA, Java) to analyze, visualize, & display dependency tree
+            of automotive C code
+          - Achievements:
+            - Automated tasks that used to require a full person-month of work to be done in 15 minutes
+            - Suggested & implemented innovative visualizations of a component's upstream & downstream dependencies,
+            contributed directly to a white paper published in Germany
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Certifications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Machine Learning
+        link: https://www.coursera.org/account/accomplishments/certificate/44SQ9WT4HC32
+        authors: Coursera
+        conference: 11/2021
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Microsoft Certified: Azure Developer Associate"
+        link: https://www.credly.com/badges/d211e0b8-7266-4c31-867c-b6ba95598286
+        authors: Microsoft
+        conference: 05/2021 - 05/2024
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Oracle Certified Professional, Java SE 8 Programmer
+        link: https://www.credly.com/badges/7616b1a7-b953-4ad8-8ae6-4fbb3a13bf80
+        authors: Oracle
+        conference: 09/2020
 
-skills:
-    title: Skills &amp; Proficiency
+      - title: Oracle Certified Associate, Java SE 8 Programmer
+        link: https://www.credly.com/badges/19ac83e4-4243-46ad-89ee-a69774d4432f
+        authors: Oracle
+        conference: 08/2019
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+# skills:
+#     title: Skills &amp; Proficiency
 
-      - name: Javascript & jQuery
-        level: 98%
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
 
-      - name: Angular
-        level: 98%
+#       - name: Javascript & jQuery
+#         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+#       - name: Angular
+#         level: 98%
 
-      - name: Ruby on Rails
-        level: 85%
+#       - name: HTML5 & CSS
+#         level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+#       - name: Ruby on Rails
+#         level: 85%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#       - name: Sketch & Photoshop
+#         level: 60%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
