@@ -56,9 +56,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: Master of Business Administration
+      - degree: Bachelor, Electrical & Electronics
         university: HCMC University of Technology
-        time: 2017 - 2020
+        time: 1999 - 2004
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,53 +66,25 @@ education:
           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
           pretium quis, sem.
             - Bullet point
-            - Bullet point
-      - degree: Bachelor of Electrical and Electronic Engineering
-        university: HCMC University of Technology
-        time: 2010 - 2015
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
             - Bullet point
             - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Engineering Manager
-        time: 10/2022 - Present
+      - role: Senior Software Engineer
+        time: 05/2023 - Present
         company: Doctor Anywhere
         details: |
-          - Engineering Manager
-            - Led a growing engineering team (from 4 to 6, then to 8 engineers) in building a medical concierge platform from scratch.
-            - Pioneered the development of an internal GenAI portal within a tight deadline.
-            - Fostered a highly agile team environment, enabling rapid feature development and deployment to production within short time frames with user requests going live within an hour from ticket creation.
-            - Achieved rapid development and deployment cycles, with features going live well ahead of schedule and deployments to production multiple times per day.
-            - In 2023, the team made 403 deployments to production. Which means there are more than 1.5 deployments per day, given there are 260 weekdays in 2023.
-            - In 2024, counting until April 1st, we had 178 deployments. Which means more than 2.7 deployments per day over the 65 weekdays of Q1 2024.
-          - Medical Concierge Platform (October 2022 - Present)
-            - Demonstrated strong technical leadership by:
-              - Conceptualizing and prototyping core functionalities: Designed and built a proof-of-concept (PoC) for the initial chat feature utilizing PubNub and internal microservices, which became the foundation for the production system.
-              - Mastering the technology stack: Quickly grasped and implemented technologies including EKS, Helm, Cloudfront, Jenkins, Sonar, and Terraform for infrastructure management, deployment, and code analysis.
-              - Devising a successful deployment strategy: Established a continuous deployment pipeline enabling frequent and reliable deployments to production environments.
-              - Solving technical challenges: Designed a new chat initialization flow with persistent storage to ensure reliable chat handling and agent continuity.
-            - Expanded the platform's functionality by:
-              - Implementing case & ticket management: Developed a system for agents to track user journeys, including features like automatic doctor suggestions and audit history for comprehensive record-keeping.
-              - Integrating doctor data & ratings: Designed a local data copy for complex queries and doctor recommendations, while keeping the original data source as the single source of truth. Further implemented automatic doctor rating calculations based on various factors.
-              - Introducing email automation & SSO integration: Built an email system with pre-filled templates for efficient agent communication, and integrated the app with the company's SSO system for secure and streamlined agent login.
+          - Medical Concierge Platform
+            - A case & ticket management, where our agents can create cases & tickets to keep track of the whole user journey from first contact,
+              to selecting a doctor, to making the appointment, and finally to the post-appointment feedback. The case & ticket management system 
+              has many features designed to minimize manual actions from the agents, like the ability to suggest candidate doctors automatically
+              based on various criteria like patient's insurance, diagnosis, etc. All changes made to cases & tickets are tracked through an audit
+              history feature as well.
             - Tech stack:
               - BE: Java Spring Boot & Hibernate deployed to AWS EKS, with AWS RDS (MySQL)
               - FE: Next.js (React-based) deployed to AWS CloudFront
               - Infra: Jenkins pipelines, Terraform & Terragrunt infra-as-code
-          - Internal GenAI Portal (January 2024 - Present)
-            - Leveraged Hugging Face's chat-ui repository to create a private fork and customize it for company needs, including integration to the company's SSO system.
-            - Established a highly secure infrastructure pipeline by running Terraform from Bitbucket pipelines with OIDC authentication and no secrets stored in Bitbucket.
-            - Delivered the portal well ahead of the tight Q1 2024 deadline, achieving zero production incidents during launch.
-            - Tech stack:
-              - Fullstack Node.js application with SvelteKit deployed to AWS ECS, with MongoDB Atlas
-              - Infra: Bitbucket pipelines, Terraform & Terragrunt infra-as-code
       - role: Senior Software Engineer
         time: 10/2021 - 03/2022
         company: Instaclustr
@@ -206,32 +178,32 @@ Project:
 #         link: "#"
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Certifications
+# publications:
+#     title: Certifications
     # intro: |
     #   You can list your publications in this section. Lorem ipsum dolor sit
     #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     #   bibendum fringilla a eu lectus.
-    papers:
-      - title: Machine Learning
-        link: https://www.coursera.org/account/accomplishments/certificate/44SQ9WT4HC32
-        authors: Coursera
-        conference: 11/2021
+    # papers:
+    #   - title: Machine Learning
+    #     link: https://www.coursera.org/account/accomplishments/certificate/44SQ9WT4HC32
+    #     authors: Coursera
+    #     conference: 11/2021
 
-      - title: "Microsoft Certified: Azure Developer Associate"
-        link: https://www.credly.com/badges/d211e0b8-7266-4c31-867c-b6ba95598286
-        authors: Microsoft
-        conference: 05/2021 - 05/2024
+    #   - title: "Microsoft Certified: Azure Developer Associate"
+    #     link: https://www.credly.com/badges/d211e0b8-7266-4c31-867c-b6ba95598286
+    #     authors: Microsoft
+    #     conference: 05/2021 - 05/2024
 
-      - title: Oracle Certified Professional, Java SE 8 Programmer
-        link: https://www.credly.com/badges/7616b1a7-b953-4ad8-8ae6-4fbb3a13bf80
-        authors: Oracle
-        conference: 09/2020
+    #   - title: Oracle Certified Professional, Java SE 8 Programmer
+    #     link: https://www.credly.com/badges/7616b1a7-b953-4ad8-8ae6-4fbb3a13bf80
+    #     authors: Oracle
+    #     conference: 09/2020
 
-      - title: Oracle Certified Associate, Java SE 8 Programmer
-        link: https://www.credly.com/badges/19ac83e4-4243-46ad-89ee-a69774d4432f
-        authors: Oracle
-        conference: 08/2019
+    #   - title: Oracle Certified Associate, Java SE 8 Programmer
+    #     link: https://www.credly.com/badges/19ac83e4-4243-46ad-89ee-a69774d4432f
+    #     authors: Oracle
+    #     conference: 08/2019
 
 # skills:
 #     title: Skills &amp; Proficiency
