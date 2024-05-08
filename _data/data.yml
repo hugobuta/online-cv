@@ -7,17 +7,17 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Tung Vu
-    tagline: Engineering Manager
-    avatar: tung.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Toan Vo
+    tagline: Senior Software Engineer
+    avatar: toanvo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: vuanhtung2004@gmail.com
-    phone: (+84) 97 970 46 29
+    email: vongoctoan@gmail.com
+    phone: (+84) 90 308 63 10
     # timezone: America/Cancun Timezone
     # citizenship:
     # website: blog.webjeda.com #do not add http://
-    linkedin: www.linkedin.com/in/tung-vu-swe/
+    linkedin: https://www.linkedin.com/in/toan-vo-59292529/
     # xing: alandoe
     # github: sharu725
     # telegram: # add your nickname without '@' sign
@@ -49,12 +49,10 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      - I'm a fast-learning, flexible, adaptive engineer as well as a
-      caring, supportive, goal-oriented manager.
-      - I thrive in an environment where I can bring the best value
-      to customers as well as to the business, while providing
-      mentoring & coaching to the juniors to help them grow to
-      realize their full potentials.
+      - Experienced software developer and team leader with 11+ years of experience coordinating design and
+        development of business applications and systems. Skilled at driving execution of the software development
+        lifecycle, handling all phases to successfully deliver on requirements. Good knowledge of network / telecom
+        systems, network protocols. Solutions-oriented problem solver able to quickly resolve technology issues.
 education:
     title: Education
     info:
@@ -116,76 +114,51 @@ experiences:
               - Fullstack Node.js application with SvelteKit deployed to AWS ECS, with MongoDB Atlas
               - Infra: Bitbucket pipelines, Terraform & Terragrunt infra-as-code
       - role: Senior Software Engineer
-        time: 02/2022 - 10/2022
+        time: 10/2021 - 03/2022
         company: Instaclustr
         details: |
-          - Internal Billing & Reporting Team
-            - Billing main tech stack: Java with Google Guice & MyBatis backend, PostgreSQL, CI/CD with
-            Jenkins pipelines & AWS infrastructure managed by Terraform & Ansible
-            - Reporting main tech stack: Apache Airflow for ETL, Apache Superset for data visualization & analysis,
-            PostgreSQL, CI/CD with Jenkins pipelines & AWS infrastructure managed by Terraform & Ansible
-          - Achievements:
-            - Set up & integrated the whole reporting platform from scratch with Apache Airflow, Apache Superset, & PostgreSQL
-            - Implemented multiple PoC visualization charts that are highly appreciated by Product team
-            - Led 2 big refactoring efforts in billing system to consolidate tiny micro services & clean up billing
-            calculations so more complex & transparent reports could be made
-      - role: Career Coach
-        time: 01/2020 - 01/2022
-        company: Adnovum
-        details: |
-          - Line manager responsibilities:
-            - Manage a pool of 8 coachees, support them on both professional & personal development
-            - Work closely with team leads to ensure engagement & performance
-            - Work closely with HR on recruitment / performance review / compensation
-          - Achievements:
-            - Was rated as the best Career Coach of VN office with high coachees satisfaction & low attrition rate
-            - Was loved by coachees that several asked for continued coaching outside company
+          - Internal team for data tool and security
+            - Main tech stack: Java, Python, AWS, Terraform, Ansible, Jenkins, Docker
+          - Responsible:
+            - Development and maintenance of internal tools to support development and delivery process
+            - Ensuring systems are running with latest software version via patching cycles
+            - Ensuring operation network get protected with up-to-date firewall setting
       - role: Senior Software Engineer
-        time: 06/2017 - 01/2022
+        time: 09/2017 - 10/2021
         company: Adnovum
         details: |
-          - 09/2021 - 01/2022: Next generation platform for a Swiss crisis management company
-            - Main tech stack: Java Spring Boot microservices backend, PostgreSQL, Keycloak for IAM & RBAC,
-            CI/CD with GitHub Actions deploy as Docker clusters on on-premise VMs
-            - Achievements:
-              - Implemented IAM using Keycloak, synchronized with legacy system
-              - Implemented RBAC using Keycloak & Spring AOP with complex business rules at entity level
-              - Contributed several ideas on improving JWT flow as well as reducing token size
-          - 07/2020 - 09/2021: Centralized access management system for an agency of SG government
-            - Main tech stack: Java Spring Boot backend, Angular frontend, MariaDB, CI/CD with GoCD pipelines
-            & Azure infrastructure managed by Terraform & Ansible
-            - Achievements:
-              - Was owner of the whole Azure infrastructure, optimized usage to save cost while facilitate local
-              development at the same time
-              - Refactors ETL component to improve stability & eliminate duplicated code
-              - Wrote several automation scripts that save time on repeated tasks
-          - 08/2019 - 07/2020: eServices system for an agency of SG government
-            - Main tech stack: .NET Framework / Core backend, Angular frontend, Microsoft SQL, CI/CD with
-            GoCD pipelines & on-premise VMs deployed by PowerShell scripts
-            - Achievements:
-              - Wrote PowerShell scripts from scratch to deploy backend & frontend components automatically
-              - Wrote PowerShell scripts to invoke .NET Entity Framework to perform DB schema migration
-              - Delivered multiple full stack features ahead of schedule
-          - 06/2017 - 08/2019: Investment product management system for a Swiss bank
-            - Main tech stack: Java Spring backend, Java Eclipse RCP frontend, Oracle DB, CI/CD with Jenkins
-            pipelines & on-premise VMs
-            - Achievements:
-              - Suggested & implemented complex GUI features using existing simple components
-              - Refactored multiple pieces of legacy code to implement new features with complex requirements
-              - Wrote several guides on setting up local development with complex dependencies between components
-              - Was main person in VN team to troubleshoot servers & Flyway migrations
-      - role: Software Engineer
-        time: 03/2015 - 06/2017
-        company: Robert Bosch Engineering & Business Solutions Vietnam
+          - NEA CAMS (07/2020 - 10/2021):
+            - Centralized Access Management System for National Environment Agency (Singapore).
+            - Full stack engineer with full DevOps responsibility. Main tech stack: MariaDB, Spring backend, Angular frontend.
+          - MAS eServices (08/2019 - 07/2020): 
+            - eServices for Monetary Authority of Singapore.
+            - Full stack engineer with full DevOps responsibility.
+              Main tech stack: Microsoft SQL, .NET Framework/ Core backend, Angular frontend. CI/CD infrastructure: on-premise VMs, GoCD pipelines, PowerShell deployment scripts.
+          - UBS Mobile (10/2017 - 03/2019): Mobile application for UBS, a Swiss Bank.
+            - Hybrid mobile engineer with maintenance responsibility. Main tech stack: JavaScript, jQuery
+      - role: Career coach (Line manager)
+        time: 02/2018 - 03/2021
+        company: Adnovum
         details: |
-          - Scripting / Automation engineer in Greenfield Architecture team:
-            - Worked directly with architects in Germany & India
-            - Worked on various languages (Python, VBA, Java) to analyze, visualize, & display dependency tree
-            of automotive C code
-          - Achievements:
-            - Automated tasks that used to require a full person-month of work to be done in 15 minutes
-            - Suggested & implemented innovative visualizations of a component's upstream & downstream dependencies,
-            contributed directly to a white paper published in Germany
+          - Manage a pool of 7 coachees. Support coachees in both professional & personal development. Work closely with team leads to ensure engagement & performance.
+            Work closely with HR on recruitment / performance review / compensation.
+      - role: Team Leader / Technical Scrum Master / Senior Software Engineer
+        time: 05/2005 - 07/2017
+        company: TMA SOLUTIONS, Ho Chi Minh City, Vietnam
+        details: |
+          - Coordinated a wide range of projects, overseeing the full development lifecycle - including requirements gathering and analysis,
+            technical specifications, programming. Liaised with team members to integrate and implement modules and functions.
+            Addressed and resolved systems issues, including providing ongoing support.
+            - Wealth Management solution: Provide a platform for UK users to manage their pension plan and strategy
+            - Hospitality Product Suite: A set of applications to manage various management aspects of running a deluxe hotel
+            - Storage devices testing solution: A software writing in C (core Linux) and Java to provide a complete suite for testing storage device (Hard disks, SSD)
+            - Network Management System: Programmed a network management application capable of scanning network ports from a specific IP interface and 
+              executing “discovery and cartography” services. Implemented discovery modules and the ability to display network nodes on topography. 
+              Deployed IP-SLA equivalent features. Designed protocols to collect diverse data. Delivered a configuration tracker module and
+              a security analyzer / policy enforcer function
+            - Service Edge Router: Maintained and enhanced the Services Edge Router 5500 (SER) which was a world class carrier grade network device.
+              Handled module IP services.
+Project:
 
 # projects:
 #     title: Projects
