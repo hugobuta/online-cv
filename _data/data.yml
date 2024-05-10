@@ -49,10 +49,9 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      - Experienced software developer and team leader with 11+ years of experience coordinating design and
-        development of business applications and systems. Skilled at driving execution of the software development
-        lifecycle, handling all phases to successfully deliver on requirements. Good knowledge of network / telecom
-        systems, network protocols. Solutions-oriented problem solver able to quickly resolve technology issues.
+      - I'm a passionate Full-stack developer with over 11 years of experience crafting business applications that make a difference.
+        I thrive in collaborative environments, leading and working alongside teams to deliver high-quality software solutions on time and within budget.
+        Skilled in various technologies including Java Spring Boot, React, AWS, and DevOps tools, I'm always eager to learn and tackle new challenges.
 education:
     title: Education
     info:
@@ -76,61 +75,60 @@ experiences:
         company: Doctor Anywhere
         details: |
           - Medical Concierge Platform
-            - A case & ticket management, where our agents can create cases & tickets to keep track of the whole user journey from first contact,
-              to selecting a doctor, to making the appointment, and finally to the post-appointment feedback. The case & ticket management system 
-              has many features designed to minimize manual actions from the agents, like the ability to suggest candidate doctors automatically
-              based on various criteria like patient's insurance, diagnosis, etc. All changes made to cases & tickets are tracked through an audit
-              history feature as well.
-            - Tech stack:
-              - BE: Java Spring Boot & Hibernate deployed to AWS EKS, with AWS RDS (MySQL)
-              - FE: Next.js (React-based) deployed to AWS CloudFront
-              - Infra: Jenkins pipelines, Terraform & Terragrunt infra-as-code
+            - Developed and maintained a Medical Concierge Platform featuring a case & ticket management system to streamline user journeys.
+            - Implemented functionalities like automated doctor suggestions and audit history tracking, minimizing manual workload.
+            - Built the platform utilizing a tech stack including
+              - Java Spring Boot & Hibernate (Backend) with AWS RDS (MySQL)
+              - Next.js (Frontend) deployed to AWS CloudFront
+              - Jenkins pipelines & Terraform (Infrastructure)
       - role: Senior Software Engineer
         time: 10/2021 - 03/2022
         company: Instaclustr
         details: |
           - Internal team for data tool and security
-            - Main tech stack: Java, Python, AWS, Terraform, Ansible, Jenkins, Docker
-          - Responsible:
-            - Development and maintenance of internal tools to support development and delivery process
-            - Ensuring systems are running with latest software version via patching cycles
-            - Ensuring operation network get protected with up-to-date firewall setting
+            - Developed and maintained internal tools to support development and delivery processes.
+            - Ensured system security through up-to-date patching cycles and firewall settings.
+            - Leveraged technologies including Java, Python, AWS, Terraform, Ansible, Jenkins, and Docker.
       - role: Senior Software Engineer
         time: 09/2017 - 10/2021
         company: Adnovum
         details: |
           - NEA CAMS (07/2020 - 10/2021):
-            - Centralized Access Management System for National Environment Agency (Singapore).
-            - Full stack engineer with full DevOps responsibility. Main tech stack: MariaDB, Spring backend, Angular frontend.
+            - Built and maintained a Centralized Access Management System (CAMS) for the National Environment Agency (Singapore) 
+              as a full-stack developer with DevOps responsibilities.
+            - Utilized MariaDB, Spring backend, and Angular frontend technologies.
           - MAS eServices (08/2019 - 07/2020): 
-            - eServices for Monetary Authority of Singapore.
-            - Full stack engineer with full DevOps responsibility.
-              Main tech stack: Microsoft SQL, .NET Framework/ Core backend, Angular frontend. CI/CD infrastructure: on-premise VMs, GoCD pipelines, PowerShell deployment scripts.
+            - Developed eServices for the Monetary Authority of Singapore as a full-stack developer with DevOps responsibilities.
+            - Implemented functionalities using Microsoft SQL, .NET Framework/Core backend, and Angular frontend technologies.
+              Employed GoCD pipelines and PowerShell deployment scripts for CI/CD infrastructure.
           - UBS Mobile (10/2017 - 03/2019): Mobile application for UBS, a Swiss Bank.
-            - Hybrid mobile engineer with maintenance responsibility. Main tech stack: JavaScript, jQuery
+            - Provided maintenance support for the UBS Mobile application, utilizing JavaScript and jQuery technologies.
       - role: Career coach (Line manager)
         time: 02/2018 - 03/2021
         company: Adnovum
         details: |
-          - Manage a pool of 7 coachees. Support coachees in both professional & personal development. Work closely with team leads to ensure engagement & performance.
-            Work closely with HR on recruitment / performance review / compensation.
+          - Manage a pool of 7 coachees in their professional and personal growth journeys.
+          - Partnered with team leads to ensure individual and team goals were aligned, maximizing overall success.
+          - Collaborated with HR on recruitment, performance reviews, and compensation strategies, fostering a positive work environment.
       - role: Team Leader / Technical Scrum Master / Senior Software Engineer
         time: 05/2005 - 07/2017
         company: TMA SOLUTIONS, Ho Chi Minh City, Vietnam
         details: |
-          - Coordinated a wide range of projects, overseeing the full development lifecycle - including requirements gathering and analysis,
-            technical specifications, programming. Liaised with team members to integrate and implement modules and functions.
-            Addressed and resolved systems issues, including providing ongoing support.
-            - Wealth Management solution: Provide a platform for UK users to manage their pension plan and strategy
-            - Hospitality Product Suite: A set of applications to manage various management aspects of running a deluxe hotel
-            - Storage devices testing solution: A software writing in C (core Linux) and Java to provide a complete suite for testing storage device (Hard disks, SSD)
-            - Network Management System: Programmed a network management application capable of scanning network ports from a specific IP interface and 
-              executing “discovery and cartography” services. Implemented discovery modules and the ability to display network nodes on topography. 
-              Deployed IP-SLA equivalent features. Designed protocols to collect diverse data. Delivered a configuration tracker module and
-              a security analyzer / policy enforcer function
-            - Service Edge Router: Maintained and enhanced the Services Edge Router 5500 (SER) which was a world class carrier grade network device.
-              Handled module IP services.
-Project:
+          - Led and mentored a team of engineers, overseeing all phases of the software development lifecycle, from requirements gathering to
+            deployment. Ensured clear communication, collaboration, and adherence to best practices throughout the development process.
+          - Successfully delivered a diverse range of mission-critical applications across various domains:
+            - Wealth Management: Built a platform for UK users to manage their pension plans, empowering them with financial control.
+            - Hospitality Product Suite: Developed a suite of applications for a deluxe hotel, streamlining management aspects and enhancing guest experiences.
+            - Storage Tevices: Created a comprehensive testing solution (C & Java) for storage devices (HDD & SSD), ensuring data integrity and reliability.
+            - Network Management System: Designed and implemented a network management system for efficient network discovery, visualization,
+              and performance monitoring. Key functionalities included
+              - Network port scanning and discovery
+              - Configuration tracking
+              - Security analysis and policy enforcement
+              - Diverse data collection and analysis (IP-SLA equivalent features)
+            - Service Edge Router: Maintained and enhanced a world-class carrier-grade network device, ensuring smooth operation and
+              efficient module IP services.
+# Project:
 
 # projects:
 #     title: Projects
